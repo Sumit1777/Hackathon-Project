@@ -118,89 +118,6 @@ justify-content:space-evenly;
     background-color: #ee4e0a;
 }
 /* -----------------------------------------------------------------------> */
-.productscontainer{
-    width:100vw;
-    /* position: absolute;     */
-    background-image: linear-gradient(to bottom, #2d2f41, #616678);
-}
-.productscontainer>h1{
-    color:#ee4e0a;
-    font-size: 3vmax;
-    padding: 2vmax;
-    border-bottom:2px solid #ee4e0a;
-    text-align: center;
-    width: 20%;
-    margin: auto;
-}
-.product{
-    /* width:auto; */
-    /* height:100vmax; */
-    /* border:2px solid red; */
-    margin: 4vmax;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.product>div{
-     width: 21vmax;
-    height: 36vmax;
-    /* border: 2px solid black; */
-    transition: 0.5s;
-    margin: 2vmax;
-    box-shadow:0px 0px 20px black;
-
-}
-.product>div:hover{
-    /* transform:translateY(-20px); */
-     transform: scale(1.1);
-}
-.product>div>img{
-    width: 100%;
-    transition: 0.5s;
-    cursor: pointer;
-}
-.product>div>h2{
-    color: white;
-    margin: 1vmax;
-    text-align: center;
-    font-size: 2vmax;
-}
-.footer{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    /* height: 55vh; */
-    width: 100vw;   
-    background-color:  #959286;
-    margin-top: -5vmax;
-}
-.footer>div{
-    border:2px solid white;
-    margin: 4vmax;
-    /* height: 30vw; */
-    /* justify-content: space-around; */
-    background-color: #1a1e15ab;
-    box-shadow: 0px 0px 10px black;
-}
-#up>div{
-    border: 2px solid white;
-    margin:6vw 20vw;
-    display: flex;
-    flex-direction:column ;
-    justify-content: space-around;
-    align-items: center;
-}
-#up>div>h1{
-    color:white;
-    font-weight: 100;
-    font-size: 34px;
-    margin: 2px;
-}
-#up>div>p{
-    color:wheat;
-    font-size: 18px;
-    text-align: center;
-}
 .btn-download{
     /* border: 2px solid red; */
     /* margin: 2vmax; */
@@ -219,3 +136,15 @@ justify-content:space-evenly;
 .btn-download>a>img{
     width:100%;
 }
+footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 11px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+
