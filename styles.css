@@ -1,0 +1,221 @@
+*{
+    scroll-behavior: smooth;
+    /* transition: 0.5s; */
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    /* border: 2px solid blueviolet; */
+    padding:0.5vmax;
+    display: flex;
+    justify-content: space-between;
+    background-color:#272a3c;
+    color:#ee4e0a;
+    position: sticky;
+    top:0%;
+    width:100%;
+    z-index: 10000;
+}
+.left>img{
+    /* border:1px solid red; */
+    width:51%;
+    /* font-size: 3vw; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* font-weight: bolder; */
+}
+.right{
+    /* border:1px solid green; */
+    width:50%;
+    font-size: 2vw;
+    display: flex;
+justify-content:space-evenly;
+    ;
+}
+.right>a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid rgb(37, 222, 9); */
+    padding:7px;
+    transition: 0.1s;
+}
+.right>a:hover{
+    border-bottom: 2px solid#ee4e0a;
+    color:#ee4e0a;
+}
+/* -------------------------------------------------------------------------> */
+.home{
+    background-image: url('space.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    width:100vw;
+}
+#homecontent{
+    /* border: 2px solid black; */
+    /* height: 55vmax; */
+    width: 36vw;
+    margin-left: 60%;
+    margin-top: 11%;
+    position: absolute;
+    color:white;
+    display: fleX;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#homecontent>h1{
+    color: #ee4e0a;
+    font-size: 4vmax;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: -5vmax;
+    /* font-family:Arial, Helvetica, sans-serif; */
+}
+#homecontent>p{
+    font-size:128.5%;
+    /* border: 2px solid greenyellow; */
+    position: absolute;
+    top: 11vmax;
+
+}
+#homecontent>h2{
+    /* border: 2px solid red; */
+    font-size: 2vmax;
+    position: absolute;
+    top: 14vmax;
+}
+#homecontent>h3{
+    /* border: 2px solid greenyellow; */
+    font-size: 1.7vmax;
+    position: absolute;
+    top:22vmax;
+}
+.btn{
+    /* border: 2px solid red; */
+    position: absolute;
+    top:18vmax;
+}
+.btn>a>button{
+      width:15vw;
+      padding: 0.7vw;
+      border-radius: 1.5vw;
+      font-weight: bold;
+      font-size: 1.3vmax;
+      /* color: brown; */
+      border: none;
+      cursor: pointer;
+}
+.btn>a>button:hover{
+    background-color: #ee4e0a;
+}
+/* -----------------------------------------------------------------------> */
+.productscontainer{
+    width:100vw;
+    /* position: absolute;     */
+    background-image: linear-gradient(to bottom, #2d2f41, #616678);
+}
+.productscontainer>h1{
+    color:#ee4e0a;
+    font-size: 3vmax;
+    padding: 2vmax;
+    border-bottom:2px solid #ee4e0a;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+}
+.product{
+    /* width:auto; */
+    /* height:100vmax; */
+    /* border:2px solid red; */
+    margin: 4vmax;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product>div{
+     width: 21vmax;
+    height: 36vmax;
+    /* border: 2px solid black; */
+    transition: 0.5s;
+    margin: 2vmax;
+    box-shadow:0px 0px 20px black;
+
+}
+.product>div:hover{
+    /* transform:translateY(-20px); */
+     transform: scale(1.1);
+}
+.product>div>img{
+    width: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.product>div>h2{
+    color: white;
+    margin: 1vmax;
+    text-align: center;
+    font-size: 2vmax;
+}
+.footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* height: 55vh; */
+    width: 100vw;   
+    background-color:  #959286;
+    margin-top: -5vmax;
+}
+.footer>div{
+    border:2px solid white;
+    margin: 4vmax;
+    /* height: 30vw; */
+    /* justify-content: space-around; */
+    background-color: #1a1e15ab;
+    box-shadow: 0px 0px 10px black;
+}
+#up>div{
+    border: 2px solid white;
+    margin:6vw 20vw;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-around;
+    align-items: center;
+}
+#up>div>h1{
+    color:white;
+    font-weight: 100;
+    font-size: 34px;
+    margin: 2px;
+}
+#up>div>p{
+    color:wheat;
+    font-size: 18px;
+    text-align: center;
+}
+.btn-download{
+    /* border: 2px solid red; */
+    /* margin: 2vmax; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: -20px;
+}
+.btn-download>a{
+    width: 190px;
+    /* height: 50px; */
+    border-radius: 1.5vw;
+    border: none;
+    cursor: pointer;
+}
+.btn-download>a>img{
+    width:100%;
+}
